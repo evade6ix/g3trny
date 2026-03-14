@@ -1,0 +1,10 @@
+{
+  "name": "g3trny",
+  "private": true,
+  "version": "1.0.0",
+  "workspaces": ["server", "client"],
+  "scripts": {
+    "build": "npm run build -w server && npm run build -w client",
+    "lint": "npm run lint -w server && npm run lint -w client"
+  }
+}
